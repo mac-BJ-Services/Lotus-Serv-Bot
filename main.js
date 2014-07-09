@@ -241,5 +241,5 @@ http.createServer(function (req, res){
 	res.end('OK');
 }).listen(process.env.PORT || 8000);
 setInterval(function (){
-	http.request({hostname:'http://lotus-bot.herokuapp.com/'});
+	http.request({hostname:'lotus-bot.herokuapp.com'});
 }, 30*60*1000);
