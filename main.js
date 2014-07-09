@@ -236,10 +236,10 @@ var connect = function(retry) {
 
 connect();
 
-var http = require('http');
+/*var http = require('http');
 http.createServer(function (req, res){
 	res.end('OK');
 }).listen(process.env.PORT || 8000);
 setInterval(function (){
 	http.request({hostname:'lotus-bot.herokuapp.com'});
-}, 30*60*1000);
+}, 30*60*1000);*/
